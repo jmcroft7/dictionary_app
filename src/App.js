@@ -27,7 +27,7 @@ function App() {
 
   useEffect(() => {
     dictionaryApi();
-  }, [word, category]);
+  }, [word, category, dictionaryApi]);
 
   const PurpleSwitch = withStyles({
     switchBase: {
